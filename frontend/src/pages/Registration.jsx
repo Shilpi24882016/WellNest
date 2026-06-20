@@ -1,21 +1,27 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router";
 
 function Registration() {
   return (
     <>
-    <div>
+      <div>
         <form>
-            <label htmlFor="name">Full Name</label>
-            <input type="text" placeholder='Enter your name'/><br />
+          <label htmlFor="name">Full Name</label>
+          <input type="text" placeholder="Enter your name" />
+          <br />
 
-            <label htmlFor="email">Email ID</label>
-            <input type="email" placeholder='Enter you Email ID'/>
+          <label htmlFor="email">Email ID</label>
+          <input type="email" placeholder="Enter you Email ID" />
+          <br />
 
-            <label htmlFor=""></label>
+          <label htmlFor="">Password</label>
+          <input type="password" placeholder="Password" />
+          <br />
+
         </form>
-    </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default Registration
+export default Registration;
