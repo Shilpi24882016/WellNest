@@ -6,8 +6,8 @@ function Registration() {
     <>
       <div>
         <form>
-          <label htmlFor="name">User Name</label>
-          <input type="text" placeholder="Enter your Name" />
+          <label htmlFor="name">Full Name</label>
+          <input type="text" placeholder="Enter your name" />
           <br />
 
           <label htmlFor="email">Email ID</label>
@@ -19,7 +19,6 @@ function Registration() {
           <br />
 
         </form>
-        <p>Have an account<span><Link to="/login">Sign In</Link></span></p>
       </div>
     </>
   );
